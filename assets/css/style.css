@@ -1,0 +1,661 @@
+/*------------------------
+Website font from google
+--------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&family=Galada&display=swap');
+
+/*---------------------------------
+Common Css Style For This Website
+-----------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+font-family: 'Baloo Da 2', cursive; 
+font-size: 17px;
+background-color: #fff;
+color: #222;
+}
+
+
+/*---------------------------------
+main css starts from here
+-----------------------------------*/
+
+/*site header css strats from here*/
+
+section.header {
+    background: white; 
+    background: white;
+    /*color: deeppink;*/
+    box-shadow: 1px 1px 6px #77767654;
+   
+}
+.top-header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+ span#highlight {
+    color: crimson;
+    margin-right: 5px;
+}
+
+h2 {
+    color: #ddd;
+}
+div.menubar {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+
+button#menu-button {
+    border: none;
+    outline: none;
+    background: #fff;
+}
+div.menubar i.fas.fa-bars {
+    color: white;
+    background: crimson;
+    padding:  5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.other {
+    /* display: none; */
+}
+a.nav-link{
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+#demo img{
+width:350px;
+height:350px;
+
+}
+/*site header section css ends here*/
+
+
+
+/*home section css starts from here*/
+
+section#home {
+    margin-top: 50px;
+}
+.col-lg-8.col-md-8.col-sm-12 {
+    padding: 0px 40px;
+}
+.col-lg-8.col-md-8.col-sm-12{
+animation: mymove 2s;
+}
+@keyframes mymove{
+0% {
+    right: -500px;
+    z-index: -20;
+}
+
+100% {
+    right: 0px;
+}
+}
+.bio-data span.hey {
+    color: #ddd;
+    font-size: 30px;
+}
+
+.bio-data h1.name {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+.bio-data span#post-title {
+    font-size: 22px;
+}
+
+.bio-data p.some-excerpt {
+    width: 79%;
+    color: #ccc;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-icon {
+    margin-bottom: 20px;
+}
+.social-icon a {
+    color: white;
+    background: #222;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 17px;
+    transition: .3s;
+}
+.social-icon a:hover {
+    box-shadow: inset 2px 5px 10px #ccc;
+    background: white;
+    color: #222;
+}
+
+.bio-data button {
+    margin-top: 30px;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: #222;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.bio-data button a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+} 
+
+
+.bio-data button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+} .modal-header button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+} 
+.bio-data button:hover {
+     box-shadow: inset 2px 5px 10px #ccc;
+    background: white;
+    color: #222;
+}
+.bio-data button:hover a{
+    color: #222;
+}
+
+/*home section css ends to here*/
+
+
+/*about section css strats from here*/
+
+.bio-data button#cv {
+    margin-top: 5px;
+  
+}
+
+/*about section css ends to here*/
+
+
+/*skills-section, education section and experiences section css strats from here*/
+
+ul.nav.nav-pills {
+    justify-content: center;
+}
+
+div#skills-section {
+    margin-top: 30px;
+}
+nav.secondary-menu {
+    margin-bottom: 50px;
+}
+
+.skills-section .col-lg-12.col-md-12.col-sm-12 h1 {
+    margin-bottom: 0px;
+}
+
+span.tag-line {
+    color: #ccc;
+}
+
+.skill-bar {
+    height: 20px;
+    box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    border-radius: 10px;
+    position: relative;
+}
+.prog {
+    background-color: #222;
+    height: 6px;
+    left: 7px;
+    top: 7px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item h2.skill-name {
+    width: 70%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+span.percentage {
+    position: absolute;
+    top: -32px;
+    right: -25px;
+    color: #222;
+}span.percentage2 {
+    position: absolute;
+    top: -32px;
+    right: 157px;
+    color: #222;
+}
+.skill-type {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+a.button {
+    background: #222;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: .3s;
+}
+a.button:hover{
+   box-shadow: inset 2px 5px 10px #ccc;
+    background: white; 
+    color: #222;
+}
+
+/*skills-section, education section and experiences section css ends to here*/
+
+/*portfolio section css starts from here*/
+
+
+.works-theme {
+ margin-top: 50px;
+}
+.col-lg-4.col-md-6.col-sm-12:hover .porfolio-desc{
+    visibility: visible;
+    background: #0a0a0ab9;
+    transition: .5s;
+}
+.works-theme img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.porfolio-desc{
+    margin-bottom: 40px;
+    position: absolute;
+    top: 18.5%;
+    text-align: center;
+    width: 92.2%;
+    color: white;
+    border-radius: 9px;
+    height: 220px;
+    text-transform: capitalize;
+    visibility: hidden;
+}.porfolio-desc h3.title {
+    margin-top: 80px;
+    text-transform: capitalize;
+
+}
+.porfolio-desc a{
+    color: white;
+}
+.porfolio-desc a i.fas {
+    background: crimson;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    
+}
+/*portfolio section css ends to here*/
+
+/*service section css starts from here*/
+
+
+.service-box {
+background: #fff;
+box-shadow: 0px 1px 10px #f9bfbf;
+padding: 15px 20px;
+border-radius: 10px;
+transition: .5s;
+}
+
+.service-box .title-desc h2.title {
+    font-size: 30px;
+}
+.service-box:hover{
+    transform: scale(1.1);
+}
+.service-box:hover .icon i{
+ animation: rotation .8s linear;
+}
+
+@keyframes rotation {
+        from {
+           transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+}
+.icon {
+    text-align: center;
+    margin: 15px 0px;
+}
+.icon i:first-child{
+    font-size: 30px;
+    color: white;
+    background: crimson;
+    padding: 13px 12px;
+    border-radius: 100%;
+}
+.icon i{
+    font-size: 30px;
+    color: white;
+    background: crimson;
+    padding: 15px 12px;
+    border-radius: 100%;
+} 
+
+
+/*blog section css starts from here */
+
+.blog-box {
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 6px #f3d4d4;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.blog-box img{
+    width: 100%;
+    border-radius: 15px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+.blog-box h2.blog-name {
+    text-transform: capitalize;
+    color: #222;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.blog-box p.description {
+    color: #d2bbbb;
+}
+
+.blog-box .blog-button {
+    color: #222;
+    background: #fff;
+    box-shadow: 1px 1px 6px #d6a0a061;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+}
+.blog-box .blog-button a{
+    color: #222;
+    text-decoration: none;
+}
+.blog-box:hover {
+    box-shadow: 1px 1px 6px #777676a6;
+    transform: scale(1.1);
+}
+/*blog section css ends to here*/
+
+
+
+/*contact section css strats from  here*/
+.row.mt-5 {
+    justify-content: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4cdcd;
+    border-radius: 5px;
+    outline: none;
+}
+textarea#message {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: 1px solid #d4cdcd;
+    outline: none;
+    border-radius: 5px;
+}
+button.send {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    border: none;
+    margin-top: 30px;
+    background: #222;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    outline: none;
+    
+}
+
+ button.send:hover {
+    box-shadow: inset 2px 5px 10px #ccc;
+    background: white;
+    color: #222;
+    transition: .5s;
+}
+/*contact section css ends to here*/
+
+
+/*footer section css starts from here*/
+
+section.footer {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.social-media-angej{
+    margin-top: 20px;
+}
+
+.social-media-angej a{
+    color: white;
+    background: #222;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: .3s;
+}
+.social-media-angej a:hover {
+    box-shadow: inset 2px 5px 10px #ccc;
+    background: white;
+    color: #222;
+    
+}
+.social-icon a i:hover{
+    animation: rotation .5s linear;
+}
+.social-media-angej a i:hover{
+    animation: rotation .5s linear;
+    font-size: 20px;
+}
+@keyframes rotation {
+        from {
+           transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+}
+/*.service-box:hover .icon i{
+ 
+}*/
+/*footer section css ends to here*/
+
+
+
+
+
+
+/*---------------------------------
+main css ends to from here
+-----------------------------------*/
+
+
+/*---------------------------------
+responsive css starts to from here
+-----------------------------------*/
+
+@media only screen and (max-width : 1199px) {
+#demo img {
+    width: 100%;
+    height: 320px;
+}
+}
+
+@media only screen and (max-width : 991px) {
+    #demo img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.bio-data p.some-excerpt {
+    width: 100%;
+    color: #ccc;
+    font-size: 20px;
+    margin-top: 10px;
+}
+div#skills {
+    overflow: hidden;
+    margin-top: 40px;
+}
+.edu-padding{
+    margin-bottom: 30px;
+}
+.other{
+    display: none;
+}
+
+div.menubar {
+    display: block;
+    text-align: right;
+}div#others {
+    box-shadow: 6px 6px 5px #efc3c3ad;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #fff;
+    z-index: 2;
+    padding: 50px 0px;
+}
+
+}
+
+@media only screen and (max-width : 768px) {
+      #demo img {
+    width: 350px;
+    height: 350px;
+}
+
+    .works-theme img {
+    width: 97.5%;
+ 
+}
+.imageofmine {
+    text-align: center;
+}
+
+.bio-data p.some-excerpt {
+    width: 100%;
+}
+
+.col-lg-8.col-md-8.col-sm-12 {
+    padding: 0px 20px;
+}
+.owner h2{
+    font-size: 28px;
+}
+
+.skills-section {
+    padding: 0px 25px;
+}
+.services-padding{
+    padding: 0px 20px;
+}
+.service-box{
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width : 500px) {
+ul.nav.nav-pills {
+    display: inline;
+}
+
+ul.nav.nav-pills.unordered-list{
+    display: flex;
+}
+div#others {
+    height: 70vh;
+}
+
+section.header {
+    width: 100%;
+  
+}
+div#others {
+    width: 100%;
+    padding: 50px 10px;
+}
+}
+@media only screen and (max-width : 425px) {
+.works-theme img {
+    width: 99%;
+}#demo img {
+    width: 320px;
+    height: 320px;
+
+}h1.edu-padding.headding{
+    font-size: 25px;
+}
+}
+@media only screen and (max-width : 375px) {
+.works-theme img {
+    width: 100%;
+}
+
+#demo img {
+    width: 300px;
+    height: 300px;
+
+}
+}
+@media only screen and (max-width : 320px) {
+.skills-section {
+    padding: 0px 10px;
+}
+#demo img {
+    width: 270px;
+    height: 270px;
+
+}.works-theme img {
+    width: 102%;
+}.bio-data span#post-title {
+    font-size: 20px;
+}.unordered-list .nav-item a.nav-link {
+    font-size: 16px;
+}
+.owner h2 {
+    font-size: 25px;
+}
+}
